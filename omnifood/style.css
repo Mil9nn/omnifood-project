@@ -409,6 +409,7 @@ html {
     display: flex;
     gap: 4.5rem;
     justify-content: center;
+    align-items: center;
 }
 
 .pricing-option {
@@ -490,9 +491,10 @@ html {
     font-size: 3rem;
 }
 
-.feature-flex {
+.feature-grid {
     max-width: 140rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     gap: 35px;
 }
@@ -509,6 +511,19 @@ html {
 /*********************/
 /****FORM STYLING****/
 /********************/
+.form-section {
+    max-width: 140rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    background-color: #ffd166;
+    color: #183f61;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
 
 .form-under input {
     width: 40%;
@@ -550,20 +565,6 @@ html {
 .form-input {
     padding: 0px 20px;
     text-align: left;
-}
-
-.form-section {
-    max-width: 140rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 15px;
-    background-color: #ffd166;
-    color: #183f61;
-    margin: 0 auto;
-    margin-bottom: 60px;
 }
 
 .form-section p {

@@ -54,3 +54,37 @@
         font-size: 2rem;
     }
 }
+
+/* 778 px */
+@media (max-width: 49rem) {
+    .recipe-section-grid {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .pricing-options {
+        flex-direction: column;
+    }
+
+    .testimonals-grid-cont {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .form-section {
+       flex-direction: column;
+    }
+}
+
+@media (max-width: 44rem) {
+    html {
+        font-size: 50%;
+    }
+
+    .brand-logos img {
+        max-width: 10rem;
+    }
+}
