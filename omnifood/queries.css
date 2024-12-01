@@ -77,6 +77,10 @@
     .form-section {
        flex-direction: column;
     }
+
+    .review {
+        text-align: center;
+    }
 }
 
 @media (max-width: 44rem) {
@@ -86,5 +90,15 @@
 
     .brand-logos img {
         max-width: 10rem;
+    }
+}
+
+@media (max-width: 39.5rem) {
+    .steps {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
