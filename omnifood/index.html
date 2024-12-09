@@ -5,16 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="queries.css">
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-            integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <title>Document</title>
     </head>
     <body>
-        <header class="heading-section">
+        <header class="header">
             <img class="omnifood-logo" src="https://omnifood.dev/img/omnifood-logo.png" alt="logo of omnifood">
 
             <nav class="nav-links">
@@ -24,14 +20,15 @@
                 <a href="#pricing">Pricing</a>
             </nav>
         </header>
+
         <section class="hero-section">
             <div class="hero-content">
                 <h1>Bringing People Together, One Bite at a Time</h1>
                 <p>Food is more than a meal—it's a celebration of flavor, culture, and connection. Explore dishes crafted with love, and stories that inspire your kitchen adventures.</p>
 
-                <div class="hero-buttons">
-                    <button class="menu-btn">Discover Flavors</button>
-                    <button class="menu-btn">Learn More<i class="fa-solid fa-down-long"></i></button>
+                <div class="herobuttons-container">
+                    <button class="hero-btn btn1">Discover Flavors</button>
+                    <button class="hero-btn btn2">Learn More<i class="fa-solid fa-down-long"></i></button>
                 </div>
                 <div class="our-customers">
                     <div class="image-container">
@@ -54,7 +51,7 @@
                             <img src="content/customers/customer-6.jpg" alt="customer-img">
                         </div>
                     </div>
-                    <p><b>120,000+</b> smiles shared!</p>
+                    <p class="smiles-paragraph"><span>120,000+</span>smiles shared!</p>
                 </div>
             </div>
 
@@ -62,18 +59,30 @@
                 <img class="hero-img" src="content/meals/hero.png" alt="hero-img">
             </div>
         </section>
+    
+
 
         <section class="brands-section">
             <h5>Proudly Partenered with Leading Brands</h5>
             <div class="brand-logos">
-                <img src="https://www.annies.com/_next/static/media/logo.6a55329d.svg" alt="annies brand logo">
-                <img src="https://brandsitesplatform-res.cloudinary.com/image/fetch/w_170,c_scale,q_auto:eco,fl_lossy,dpr_1.0,e_sharpen:85/https://assets.brandplatform.generalmills.com%2F-%2Fmedia%2Fproject%2Fgmi%2Fcorporate%2Fcorporate-master%2Flogo%2Fgeneral-mills-logo.svg%3Frev%3Dd2599ad7ef0944bb99c4a5d7e5914d39" alt="some food brand logo">
-                <img src="https://www.unilever.com/core-assets/logos/logo-animated.svg" alt="unilever brand logo">
-                <img src="https://www.chobani.com/chobani.png" alt="chobani brand logo">
-                <img src="https://www.yoplait.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyoplait-yogurt-logo.57f57521.png&w=480&q=75" alt="yoplait brand logo">
+                <div class="logo-wrapper">
+                    <img src="https://www.annies.com/_next/static/media/logo.6a55329d.svg" alt="annies brand logo">
+                </div>
+                <div class="logo-wrapper">
+                    <img src="https://brandsitesplatform-res.cloudinary.com/image/fetch/w_170,c_scale,q_auto:eco,fl_lossy,dpr_1.0,e_sharpen:85/https://assets.brandplatform.generalmills.com%2F-%2Fmedia%2Fproject%2Fgmi%2Fcorporate%2Fcorporate-master%2Flogo%2Fgeneral-mills-logo.svg%3Frev%3Dd2599ad7ef0944bb99c4a5d7e5914d39" alt="some food brand logo">
+                </div>
+                <div class="logo-wrapper">
+                    <img src="https://www.unilever.com/core-assets/logos/logo-animated.svg" alt="unilever brand logo">
+                </div>
+                <div class="logo-wrapper">
+                    <img src="https://www.chobani.com/chobani.png" alt="chobani brand logo">
+                </div>
+                <div class="logo-wrapper">
+                    <img src="https://www.yoplait.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyoplait-yogurt-logo.57f57521.png&w=480&q=75" alt="yoplait brand logo">
+                </div>
             </div>
         </section>
-
+    
         <section id="how-to-order">
             <h3>The Recipe for Delight</h3>
             <h2>Wellness Made Simple in 03 Easy Steps</h2>
@@ -82,11 +91,15 @@
                     <h4><span>01</span>Discover</h4>
                     <p>Explore a world of irresistible flavors. Browse our menu and choose the dishes that excite your taste buds, there’s something for every craving.</p>
                 </div>
-                <img src="https://img.freepik.com/free-photo/high-protein-meal-with-smartphone-arrangement_23-2149089685.jpg?ga=GA1.1.170158151.1732527982&semt=ais_hybrid" alt="colorful dish on smartphone screen">
+                <div class="appscreen-wrapper">
+                    <img src="content/app/app-screen-1.png" alt="colorful dish on smartphone screen">
+                </div>
             </div>
 
             <div class="steps">
-                <img src="https://images.pexels.com/photos/8939520/pexels-photo-8939520.jpeg?auto=compress&cs=tinysrgb&w=600" alt=" cart button showing on smartphone screen">
+                <div class="appscreen-wrapper">
+                    <img src="content/app/app-screen-2.png" alt=" cart button showing on smartphone screen">
+                </div>
                 <div class="steps-content">
                     <h4><span>02</span> Request</h4>
                     <p>Your next meal is just a click away. Customize your choices, schedule your delivery, and sit back while we take care of the rest.</p>
@@ -98,21 +111,25 @@
                     <h4><span>03</span>Indulge</h4>
                     <p>Fresh, delicious, and ready to enjoy. Delivered right to your door, our meals are designed to delight with every bite.</p>
                 </div>
-                <img src="https://images.pexels.com/photos/3807561/pexels-photo-3807561.jpeg?auto=compress&cs=tinysrgb&w=600" alt="food on the table with people eating">
+                <div class="appscreen-wrapper">
+                    <img src="content/app/app-screen-3.png" alt="food on the table with people eating">
+                </div>
             </div>
         </section>
 
         <section id="ai-recipes">
             <h4>Fresh Picks</h4>
-            <h3>Hotmeal AI chooses from 5,000+ recipes</h3>
+            <h3>Omnifood AI chooses from 5,000+ recipes</h3>
             <div class="recipe-section-grid">
                 <div class="recipe">
                     <img src="content/meals/meal-1.jpg" alt="japanese gyozas dish pic">
                     <p class="recipe-categ">Vegetarian</p>
-                    <h4>Japanese Gyozas</h4>
-                    <p><i class="fa-solid fa-fire"></i> 650 calories</p>
-                    <p><i class="fa-solid fa-spoon"></i> NutriScore @ 74</p>
-                    <p><i class="fa-solid fa-star"></i> 4.9 rating (537)</p>
+                    <h5>Japanese Gyozas</h5>
+                    <div class="recipe-description">
+                        <p><i class="fa-solid fa-fire"></i> 650 calories</p>
+                        <p><i class="fa-solid fa-spoon"></i> NutriScore @ 74</p>
+                        <p><i class="fa-solid fa-star"></i> 4.9 rating (537)</p>
+                    </div>
                 </div>
 
                 <div class="recipe">
@@ -121,14 +138,16 @@
                         <p class="recipe-categ">Vegan</p>
                         <p class="recipe-categ">Paleo</p>
                     </div>
-                    <h4>Avocado Salad</h4>
-                    <p><i class="fa-solid fa-fire"></i> 400 calories</p>
-                    <p><i class="fa-solid fa-spoon"></i> NutriScore @ 92</p>
-                    <p><i class="fa-solid fa-star"></i> 4.9 rating (441)</p>
+                    <h5>Avocado Salad</h5>
+                    <div class="recipe-description">
+                        <p><i class="fa-solid fa-fire"></i> 400 calories</p>
+                        <p><i class="fa-solid fa-spoon"></i> NutriScore @ 92</p>
+                        <p><i class="fa-solid fa-star"></i> 4.9 rating (441)</p>
+                    </div>
                 </div>
 
                 <div class="diets">
-                    <h3>Works with any diet:</h3>
+                    <h5>Works with any diet:</h5>
                     <ul>
                         <li><i class="fa-solid fa-check"></i>Vegetarian</li>
                         <li><i class="fa-solid fa-check"></i>Vegan</li>
@@ -142,7 +161,7 @@
                 </div>
             </div>
 
-            <a href="#" class="all-recipes-link">See all recipes<i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="all-recipes-link">See all recipes <i class="fa-solid fa-arrow-right"></i></a>
         </section>
 
         <section>
@@ -152,28 +171,36 @@
                     <h2>Voices of Trust: Real Stories from our customers</h2>
                     <div class="testimonals-grid-cont">
                         <div class="review">
-                            <img src="content/customers/customer-1.jpg" alt="customer-image">
-                            <p>The variety is amazing, It feels like it knows exactly what I’m craving.
-                            <br>- Chum yangchan</p>
+                            <div class="testimonalImg-wrapper">
+                                <img src="content/customers/customer-1.jpg" alt="customer-image">
+                            </div>
+                            <p>The variety is amazing, It feels like it knows exactly what I’m craving.</p>
+                            <p>- Chum yangchan</p>
                         </div>
                         <div class="review">
-                            <img src="content/customers/customer-2.jpg" alt="customer-image">
-                            <p>The delivery is always on time, and the food arrives hot and fresh.
-                            <br>- Jordan Taylor</p>
+                            <div class="testimonalImg-wrapper">
+                                <img src="content/customers/customer-2.jpg" alt="customer-image">
+                            </div>
+                            <p>The delivery is always on time, and the food arrives hot and fresh.</p>
+                            <p>- Jordan Taylor</p>
                         </div>
                         <div class="review">
-                            <img src="content/customers/customer-3.jpg" alt="customer-image">
-                            <p>We can order from multiple restaurants in one go, and everyone gets what they want. Five stars!
-                            <br>- Flora Lornes</p>
+                            <div class="testimonalImg-wrapper">
+                                <img src="content/customers/customer-3.jpg" alt="customer-image">
+                            </div>
+                            <p>We can order from multiple restaurants in one go, and everyone gets what they want. Five stars!</p>
+                            <p>- Flora Lornes</p>
                         </div>
                         <div class="review">
-                            <img src="content/customers/customer-4.jpg" alt="customer-image">
-                            <p>The 24/07 availability and special deals are just amazing. It’s my best friend after midnight!<br>
-                            - Daniel Lopez</p>
+                            <div class="testimonalImg-wrapper">
+                                <img src="content/customers/customer-4.jpg" alt="customer-image">
+                            </div>
+                            <p>The 24/07 availability and special deals are just amazing. It’s my best friend after midnight!<p>
+                            <p>- Daniel Lopez</p>
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="img-gallery">
                     <div class="gallery-img-div">
                         <img src="content/gallery/gallery-1.jpg" alt="a dish from dish gallery">
@@ -212,8 +239,10 @@
                         <img src="content/gallery/gallery-12.jpg" alt="a dish from dish gallery">
                     </div>
                 </div>
+            
             </div>
         </section>
+    
 
         <section id="pricing">
             <p>Pricing</p>
@@ -251,7 +280,7 @@
                 </div>
             </div>
         </section>
-
+    
         <section class="feature-section">
             <p>All prices are fully inclusive of taxes. Cancel whenever you like. Both plans offer the following features:</p>
             <div class="feature-grid">
@@ -280,31 +309,41 @@
                 </div>
             </div>
         </section>
+    
 
         <form class="form-section">
             <div class="form-input">
                 <h2>Get your first meal for free!</h2>
                 <p>Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
                 <div class="form-under">
-                    <div class="form-under-item">
-                        <input type="text" name="name" placeholder="Full Name" required>
-                        <input type="email" name="email" placeholder="Email" required>
+                    <div class="formInput-section">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required>
                     </div>
-
-                    <div class="form-under-item">
+                    <div class="formInput-section">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="John32@gmail.com" required>
+                    </div>
+                    <div class="formInput-section">
+                        <label>Where did you hear from us ?</label>
                         <select>
-                            <option>Where did you hear from us ?</option>
+                            <option>Click to Select the options:</option>
                             <option>Friends and Family</option>
                             <option>Youtube Video</option>
                             <option>Podcast</option>
                             <option>Facebook Ad</option>
                             <option>Others</option>
                         </select>
+                    </div>
+                    <div class="formInput-section">
                         <button>Sign up now</button>
+                    </div>
                     </div>
                 </div>
             </div>
-            <img src="content/meals/eating.jpg" alt="a women eating delicious food">
+            <div class="formImg-wrapper">
+                <img class="form-img" src="content/meals/eating.jpg" alt="a women eating delicious food">
+            </div>
         </form>
 
         <footer class="footer-section">
@@ -315,34 +354,34 @@
                     <a><i class="fa-brands fa-facebook"></i></a>
                     <a><i class="fa-brands fa-twitter"></i></a>
                 </div>
-                <p>Copyright &copy; 2027 by omnifood. Inc. All rights reserved.</p>
+                <p class="address">Copyright &copy; 2027 by omnifood. Inc. All rights reserved.</p>
             </div>
 
             <div class="footer-item">
                 <h5>Contact us</h5>
-                <p>623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+                <p class="address">623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
                 <a href="#">415-201-6370</a>
                 <a href="#">hello@omnifood.com</a>
             </div>
 
             <div class="footer-item">
                 <h5>Account</h5>
-                <a href="#">Create account</a><br>
-                <a href="#">Sign in</a><br>
-                <a href="#">iOS app</a><br>
+                <a href="#">Create account</a>
+                <a href="#">Sign in</a>
+                <a href="#">iOS app</a>
                 <a href="#">Android</a>
             </div>
             <div class="footer-item">
                 <h5>Company</h5>
-                <a href="#">About omnifood</a><br>
-                <a href="#">For Business</a><br>
-                <a href="#">Cooking partners</a><br>
+                <a href="#">About omnifood</a>
+                <a href="#">For Business</a>
+                <a href="#">Cooking partners</a>
                 <a href="#">Careers</a>
             </div>
             <div class="footer-item">
                 <h5>Resources</h5>
-                <a href="#">Recipe directory</a><br>
-                <a href="#">Help center</a><br>
+                <a href="#">Recipe directory</a>
+                <a href="#">Help center</a>
                 <a href="#">Privacy & terms</a>
             </div>
         </footer>
