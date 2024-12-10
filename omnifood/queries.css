@@ -25,7 +25,7 @@
 /*1026px*/
 @media (max-width: 64.13em) {
     .feature-grid {
-        padding: 10px 10px;
+        padding: 10px 5px;
     }
 
     .form-under {
@@ -34,6 +34,10 @@
 
     .form-under input {
         margin-bottom: 0;
+    }
+
+    .formInput-section button {
+        margin-bottom: 20px;
     }
 }
 
@@ -51,7 +55,7 @@
     }
 
     .feature-item {
-        padding: 8px;
+        padding: 6px;
     }
 }
 
@@ -90,11 +94,6 @@
 
     .feature-grid {
         grid-template-columns: repeat(2, 1fr);
-        padding: 20px 20px;
-    }
-
-    .feature-item {
-        padding: 6px;
     }
 
     .form-section {
@@ -114,10 +113,22 @@
     }
 }
 
+/*611px*/
+@media (max-width:38.2rem) {
+    .brands-section {
+        padding: 60px 20px;
+    }
+
+    .recipe-section-grid {
+        padding: 35px 10px;
+    }
+}
+
 /*463px*/
 @media (max-width: 29em) {
     .steps {
         flex-direction: column;
         justify-self: center;
+        margin: 10px;
     }
 }

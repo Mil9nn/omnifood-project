@@ -118,14 +118,25 @@ html {
     padding: 10px 20px;
     border-radius: 30px;
     margin: 3rem 0 3rem 0;
+    border: 1px solid #000000;
+}
+
+.herobuttons-container .btn1 {
     background-color:#26547C;
-    border: 1px solid #26547C;
+    border: 2px solid #26547C;
     color: #fff;
 }
 
-.hero-btn:hover {
-    background-color: #1F4565;
+.herobuttons-container .btn1:hover {
+    background-color:#ffd166;
+    border: 2px solid #ffd166;
+    color: #000;
 }
+
+.herobuttons-container .btn2:hover {
+    background-color: #c9c5c5;
+}
+
 
 /********************/
 /******BRANDS*******/
@@ -146,7 +157,7 @@ html {
 }
 
 .brands-section {
-    padding: 20px 60px;
+    padding: 60px;
 }
 
 .brands-section h5 {
@@ -171,7 +182,7 @@ html {
 #how-to-order h2 {
     font-size: 4rem;
     text-align: center;
-    margin: 2rem 0 2rem 0;
+    margin: 2rem 0 3rem 0;
 }
 
 .appscreen-wrapper {
@@ -223,6 +234,13 @@ html {
     max-width: 35rem;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: bottom;
+}
+
+.recipe:hover {
+    transform: scale(1.02);
 }
 
 .recipe img {
@@ -355,10 +373,20 @@ html {
 /********************************/
 .gallery-img-div {
    max-width: 50rem;
+   max-height: 50rem;
+   overflow: hidden;
+   position: relative;
 }
 
 .img-gallery img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-gallery img:hover {
+    transform:scale(1.2);
 }
 
 .img-gallery {
@@ -446,12 +474,6 @@ html {
 /**********************/
 /******FEATURES********/
 /**********************/
-.feature-grid {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 20px 80px;
-}
 
 .feature-item {
     padding: 20px;
@@ -467,10 +489,16 @@ html {
     margin-bottom: 10px;
     color: #06D6A0;
 }
-
 .feature-section {
     font-size: 2rem;
     padding: 20px 60px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 60px;
+    gap: 3rem;
 }
 
 .feature-section p {
@@ -510,6 +538,7 @@ html {
     padding: 15px 20px;
     border-radius: 8px;
     margin-bottom: 2rem;
+    border: 2px solid #ffffff;
 }
 
 .form-section {
@@ -528,6 +557,7 @@ html {
 .form-under select {
     padding: 17px 18px;
     border-radius: 8px;
+    border: 2px solid #ffffff;
 }
 
 .form-under button {
@@ -535,6 +565,11 @@ html {
     padding: 13px 18px;
     border-radius: 8px;
     margin-top: 2.8rem;
+    border: 2px solid #ffffff;
+}
+
+.form-under button:hover {
+    background-color:#ffd166;
 }
 
 .formImg-wrapper {
@@ -571,12 +606,6 @@ html {
     padding: 20px 60px;
 }
 
-.footer-item a{
-    font-size: 1.7rem;
-    display: block;
-    color: #a09494;
-}
-
 .footer-item p {
     font-size: 1.7rem;
     margin-bottom: 10px;
@@ -584,8 +613,19 @@ html {
 }
 
 .footer-item a:link {
+    font-size :1.7rem;
+    display: block;
     text-decoration: none;
     margin-bottom: 10px;
+    color: #a09494;
+}
+
+.footer-item a:visited {
+    color: #a09494;
+}
+
+.footer-item a:hover {
+    color:#EF476F;
 }
 
 .footer-item h5 {
@@ -601,5 +641,6 @@ html {
     display: flex;
     gap: 30px;
     margin-bottom: 15px;
+    font-size: 2rem;
 }
 
