@@ -260,7 +260,7 @@ html {
 }
 
 .recipe-description {
-    padding: 30px;
+    padding: 10px;
 }
 
 .recipe-description p {
@@ -328,6 +328,7 @@ html {
 
 .review p {
     font-size: 2rem;
+    max-width: 220px;
 }
 
 .testimonalImg-wrapper {
@@ -339,6 +340,7 @@ html {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 20px;
     row-gap: 20px;
+    padding: 25px;
 }
 
 .testimonals span {
@@ -393,24 +395,27 @@ html {
     gap: 6rem;
     justify-content: center;
     font-size: 2.8rem;
-    padding: 20px 60px;
+    padding: 40px;
 }
 
 .pricing-options p {
-    margin-bottom: 20px;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .pricing-option {
-    width: 40rem;
-    padding: 40px;
+    max-width: 40rem;
     border-radius: 5px;
     background-color: #f3efea;
+    padding: 50px;
 }
 
 .pricing-option ul li {
-    margin-bottom: 15px;
+    font-size: 2rem;
     list-style-type: none;
+}
+
+.pricing-option ul {
+    padding: 10px;
 }
 
 .pricing-option span {
@@ -420,7 +425,6 @@ html {
 .order-btn {
     padding: 10px 20px;
     border-radius: 25px;
-    margin-top: 15px;
     font-weight: bold;
     font-size: 2rem;
     background-color:#ffd166;
@@ -433,19 +437,13 @@ html {
     color: whitesmoke;
 }
 
-#pricing {
-    padding: 20px 60px;
-}
-
 #pricing p:first-of-type {
     font-size: 2.4rem;
     font-weight: bold;
-    margin-bottom: 20px;
 }
 
 #pricing h2 {
     font-size: 4rem;
-    margin-bottom: 20px;
 }
 
 .pricing-options .option-2 {
@@ -476,7 +474,7 @@ html {
 }
 .feature-section {
     font-size: 2rem;
-    padding: 20px 60px;
+    padding: 20px 25px;
 }
 
 .feature-grid {
@@ -511,6 +509,7 @@ html {
 
 .form-input {
     padding: 50px 50px 0 50px;
+    width: 60%;
 }
 
 .form-under {
@@ -524,6 +523,7 @@ html {
     border-radius: 8px;
     margin-bottom: 2rem;
     border: 2px solid #ffffff;
+    font-size: 2rem;
 }
 
 .form-section {
@@ -543,6 +543,7 @@ html {
     padding: 17px 18px;
     border-radius: 8px;
     border: 2px solid #ffffff;
+    font-size: 2rem;
 }
 
 .form-under button {
@@ -575,7 +576,7 @@ html {
 }
 
 .formInput-section label {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 /*********************/
@@ -587,8 +588,8 @@ html {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 30px;
-    padding: 20px 60px;
+    gap: 15px;
+    padding: 20px 30px;
 }
 
 .footer-item p {

@@ -14,6 +14,7 @@
 @media (max-width: 71.25em) {
     .recipe-type {
         flex-direction: column;
+        gap: 0;
     }
 
     .img-gallery {
@@ -48,12 +49,6 @@
         gap: 5rem;
     }
 
-    .pricing-option {
-        width: 40rem;
-        background-color: skyblue;
-        padding: 40px 15px;
-    }
-
     .feature-item {
         padding: 6px;
     }
@@ -82,6 +77,10 @@
 
 /* 738px*/
 @media (max-width: 46.13em) {
+    html {
+        font-size: 43.75%;
+    }
+
     .recipe-section-grid {
         grid-template-columns: 1fr;
         justify-self: center;
@@ -111,6 +110,7 @@
 
     .form-input {
         order: 2;
+        width: 90%;
     }
 
     .footer-section {
@@ -135,5 +135,13 @@
         flex-direction: column;
         justify-self: center;
         margin: 10px;
+    }
+
+    .hero-section h1 {
+        font-size: 3rem;
+    }
+
+    .hero-section p {
+        font-size: 2rem;
     }
 }
