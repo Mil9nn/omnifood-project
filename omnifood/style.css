@@ -55,6 +55,14 @@ html {
     display: flex;
 }
 
+.navbar {
+   padding: 30px !important;
+}
+
+.navbar a {
+    font-size: 1.8rem;
+}
+
 .hero-section {
     max-width: 150rem;
     display: flex;
@@ -80,33 +88,6 @@ html {
     font-size: 1rem;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 60px;
-    background-color: #f3efea;
-}
-
-.nav-links {
-    display: flex;
-    gap: 30px;
-}
-
-.nav-links a:link {
-    color: #EF476F;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 2rem;
-}
-
-.nav-links a:visited {
-    color:#EF476F;
-}
-
-.nav-links a:hover {
-    color:#26547C;
-}
-
 .herobuttons-container {
     display: flex;
     gap: 30px;
@@ -122,19 +103,22 @@ html {
 }
 
 .herobuttons-container .btn1 {
-    background-color:#26547C;
-    border: 2px solid #26547C;
-    color: #fff;
-}
-
-.herobuttons-container .btn1:hover {
     background-color:#ffd166;
     border: 2px solid #ffd166;
     color: #000;
 }
 
+.herobuttons-container .btn2 {
+    background-color: #f3efea;
+    border: 2px solid #000;
+}
+
+.herobuttons-container .btn1:hover {
+   border: 2px solid #ffffff;
+}
+
 .herobuttons-container .btn2:hover {
-    background-color: #c9c5c5;
+    border: 2px solid #ffffff;
 }
 
 
