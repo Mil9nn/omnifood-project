@@ -57,6 +57,11 @@
     .feature-item {
         padding: 6px;
     }
+
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /*888px*/
