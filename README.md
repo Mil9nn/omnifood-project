@@ -6,6 +6,9 @@ and customer testimonials. The website's clean and responsive design offers a sm
 desktop and mobile devices. It features styled recipe cards, a hero section with call-to-action buttons, and
 sections for pricing and testimonials.
 
+## Live Demo
+Live demo of the project here: [Live Demo](https://mil9nn.github.io/omnifood-project/omnifood/index.html)
+
 ## Features
 - Hero Section: A captivating hero section with two buttons to guide users to explore more recipes or learn about pricing.
 - Recipe Cards: Two styled recipe cards that display the recipe and things regarding it.
