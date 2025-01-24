@@ -10,9 +10,37 @@ body {
     font-style: normal;
 }
 
+body > :nth-child(1) {
+    background-color: #f3efea;
+    padding: 5px;
+}
+
 html {
     /*10px*/
     font-size: 62.5%;
+}
+
+/*******************************/
+/**********HEADER**************/
+/*****************************/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 150rem;
+    padding: 35px 60px;
+    background-color: #f3efea;
+}
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #26547C;
+    font-weight: bold;
 }
 
 /******************************/
@@ -53,14 +81,6 @@ html {
 
 .image-container {
     display: flex;
-}
-
-.navbar {
-   padding: 30px !important;
-}
-
-.navbar a {
-    font-size: 1.8rem;
 }
 
 .hero-section {
@@ -104,8 +124,8 @@ html {
 }
 
 .herobuttons-container .btn1 {
-    background-color:#ffd166;
-    border: 2px solid #ffd166;
+    background-color:#ffd166e3;
+    border: none;
     color: #000;
 }
 
@@ -115,7 +135,8 @@ html {
 }
 
 .herobuttons-container .btn1:hover {
-   border: 2px solid #ffffff;
+    background-color:#ffd166;
+    border: 2px solid #fff;
 }
 
 .herobuttons-container .btn2:hover {
@@ -410,7 +431,8 @@ html {
     max-width: 40rem;
     border-radius: 5px;
     background-color: #f3efea;
-    padding: 50px;
+    padding: 40px 45px;
+    line-height: 1.5;
 }
 
 .pricing-option ul li {
@@ -431,8 +453,16 @@ html {
     border-radius: 25px;
     font-weight: bold;
     font-size: 2rem;
-    background-color:#ffd166;
-    border: 1px solid #ffd166;
+    border: none;
+}
+
+.option-1 button {
+    background-color: #1B5E20;
+    color: #FFFFFF;
+}
+.option-2 button {
+    background-color: #4E342E;
+    color: #FFD700;
 }
 
 .order-btn:hover {
@@ -450,8 +480,14 @@ html {
     font-size: 4rem;
 }
 
+.pricing-options .option-1 {
+    background-color: #E8F5E9;
+    color: #2E7D32;
+}
+
 .pricing-options .option-2 {
-    background-color: #3dae90;
+    background-color: #FFD700;
+    color: #6D4C41;
 }
 
 .pricing-options .fa-solid {
@@ -634,3 +670,15 @@ html {
     font-size: 2rem;
 }
 
+
+.close, .hamburger {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

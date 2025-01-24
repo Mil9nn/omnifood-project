@@ -116,6 +116,27 @@
     .footer-section {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .close, .hamburger {
+        display: inline;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+    .header {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+        height: 100vh;
+        position: absolute;
+        z-index: 10;
+        border: 1px solid black;
+        padding: 10px;
+        width: 350px;
+        left: -100%;
+        transition: all 0.3s ease;
+    }
 }
 
 /*611px*/
