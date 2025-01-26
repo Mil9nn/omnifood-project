@@ -97,6 +97,7 @@
 
     .form-section {
         flex-direction: column;
+        border-radius: 0;
     }
 
     .formImg-wrapper {
@@ -105,12 +106,11 @@
     }
 
     .form-img {
-        order: 1;
         border-radius: 0;
     }
 
     .form-input {
-        order: 2;
+       order: 2;
     }
 
     .footer-section {
@@ -157,6 +157,10 @@
         flex-direction: column;
         justify-self: center;
         margin: 10px;
+    }
+    
+    .step-2 .appscreen-wrapper {
+        order: 2;
     }
 
     .hero-section h1 {

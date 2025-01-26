@@ -195,6 +195,7 @@ nav a {
 .appscreen-wrapper {
     max-width: 23rem;
     height: auto;
+    margin: 15px 0;
 }
 
 .appscreen-wrapper img {
@@ -216,7 +217,6 @@ nav a {
 
 .steps-content h4 {
     font-size: 4rem;
-    margin-bottom: 2rem;
 }
 
 .steps-content p {
@@ -225,10 +225,6 @@ nav a {
 
 .steps-content span {
     font-size: 7rem;
-}
-
-.step-2 .steps-content {
-    order: 2;
 }
 
 /************************/
