@@ -129,13 +129,14 @@
         justify-content: flex-start;
         gap: 20px;
         height: 100vh;
-        position: absolute;
+        position: fixed;
         z-index: 10;
-        border: 1px solid black;
         padding: 10px;
         width: 350px;
         left: -100%;
+        top: 0;
         transition: all 0.3s ease;
+        background-color: rgb(253, 249, 244);
     }
 }
 

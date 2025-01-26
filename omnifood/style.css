@@ -671,10 +671,24 @@ nav a {
 }
 
 
-.close, .hamburger {
+.hamburger {
     width: 30px;
     height: 30px;
     display: none;
+    position: fixed;
+    z-index: 15;
+}
+.hamburger:hover {
+    cursor: pointer;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+.close:hover {
+    cursor: pointer;
 }
 
 .logoContainer {

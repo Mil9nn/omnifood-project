@@ -6,7 +6,7 @@ document.querySelector(".close").addEventListener("click", () => {
 });
 
 document.querySelector(".hamburger").addEventListener("click", () => {
-    document.querySelector(".header").style.left = "0%";
     document.querySelector(".hamburger").style.display = "none";
+    document.querySelector(".header").style.left = "0%";
 });
 
