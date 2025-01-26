@@ -179,6 +179,7 @@ nav a {
 #how-to-order {
     max-width: 100rem;
     margin: 0 auto;
+    padding: 20px;
 }
 
 #how-to-order h3 {
@@ -420,64 +421,10 @@ nav a {
     gap: 6rem;
     justify-content: center;
     font-size: 2.8rem;
-    padding: 40px;
 }
 
 .pricing-options p {
     font-size: 2.5rem;
-}
-
-.pricing-option {
-    max-width: 40rem;
-    border-radius: 5px;
-    background-color: #f3efea;
-    padding: 40px 45px;
-    line-height: 1.5;
-}
-
-.pricing-option ul li {
-    font-size: 2rem;
-    list-style-type: none;
-}
-
-.pricing-option ul {
-    padding: 10px;
-}
-
-.pricing-option span {
-    font-size: 7rem;
-}
-
-.order-btn {
-    padding: 10px 20px;
-    border-radius: 25px;
-    font-weight: bold;
-    font-size: 2rem;
-    border: none;
-}
-
-.option-1 button {
-    background-color: #1B5E20;
-    color: #FFFFFF;
-}
-.option-2 button {
-    background-color: #4E342E;
-    color: #FFD700;
-}
-
-.order-btn:hover {
-    background-color: #26547C;
-    border: 1px solid #26547c;
-    color: whitesmoke;
-}
-
-#pricing p:first-of-type {
-    font-size: 2.4rem;
-    font-weight: bold;
-}
-
-#pricing h2 {
-    font-size: 4rem;
 }
 
 .pricing-options .option-1 {
@@ -487,11 +434,71 @@ nav a {
 
 .pricing-options .option-2 {
     background-color: #FFD700;
-    color: #6D4C41;
+    color: rgb(186, 13, 77);
 }
 
-.pricing-options .fa-solid {
-    color: #26547C;
+.pricing-option {
+    max-width: 44rem;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #f3efea;
+    line-height: 1.5;
+    padding: 20px;
+    height: 60rem;
+    position: relative;
+}
+
+.pricing-option ul {
+    padding: 10px;
+}
+
+.pricing-option ul li {
+    font-size: 2rem;
+    list-style-type: none;
+}
+
+.pricing-option span {
+    font-size: 7rem;
+}
+
+.order-btn {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    border: none;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.order-btn:hover {
+    background-color: #26547C;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.option-1 button {
+    background-color: #1B5E20;
+    color: #FFFFFF;
+}
+.option-2 button {
+    background-color: rgb(186, 13, 77);
+    color: #FFD700;
+}
+
+#pricing {
+    padding: 20px;
+}
+
+#pricing p:first-of-type {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+#pricing h2 {
+    font-size: 4rem;
 }
 
 /**********************/
@@ -548,8 +555,8 @@ nav a {
 }
 
 .form-input {
-    padding: 50px 50px 0 50px;
-    width: 60%;
+    width: 100%;
+    padding: 20px;
 }
 
 .form-under {
@@ -562,12 +569,13 @@ nav a {
     padding: 15px 20px;
     border-radius: 8px;
     margin-bottom: 2rem;
-    border: 2px solid #ffffff;
+    border: none;
     font-size: 2rem;
 }
 
 .form-section {
     max-width: 120rem;
+    height: 45rem;
     margin: 0 auto;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -580,18 +588,19 @@ nav a {
 }
 
 .form-under select {
-    padding: 17px 18px;
+    padding: 14px;
     border-radius: 8px;
-    border: 2px solid #ffffff;
+    border: none;
     font-size: 2rem;
 }
 
 .form-under button {
     font-size: 2rem;
-    padding: 13px 18px;
+    padding: 14px 18px;
     border-radius: 8px;
     margin-top: 2.8rem;
-    border: 2px solid #ffffff;
+    font-weight: bold;
+    border: none;
 }
 
 .form-under button:hover {
@@ -603,8 +612,7 @@ nav a {
 }
 
 .form-img {
-    max-width:100%;
-    object-fit: cover;
+    width: 100%;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
 }
@@ -612,7 +620,7 @@ nav a {
 .formInput-section {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 10px;
 }
 
 .formInput-section label {

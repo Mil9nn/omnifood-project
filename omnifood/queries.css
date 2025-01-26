@@ -33,12 +33,15 @@
         grid-template-columns: 1fr;
     }
 
-    .form-under input {
-        margin-bottom: 0;
+    .form-section {
+        height: auto;
+    }
+    .form-section img {
+        height: 100%;
     }
 
-    .formInput-section button {
-        margin-bottom: 20px;
+    .form-under input {
+        margin-bottom: 0;
     }
 }
 
@@ -64,14 +67,6 @@
     .pricing-options {
         flex-direction: column;
         justify-self: center;
-    }
-
-    .form-under button {
-        margin-top: 0px;
-    }
-
-    .form-input {
-        padding: 0 0 0 20px;
     }
 }
 
@@ -104,13 +99,18 @@
         flex-direction: column;
     }
 
+    .formImg-wrapper {
+        width: 100%;
+        height: 60rem;
+    }
+
     .form-img {
         order: 1;
+        border-radius: 0;
     }
 
     .form-input {
         order: 2;
-        width: 90%;
     }
 
     .footer-section {
